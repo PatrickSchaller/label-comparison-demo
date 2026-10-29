@@ -1,0 +1,178 @@
+[
+  {
+    "fields": [
+      {
+        "key": "productName",
+        "value": "Oat & Cocoa Drink Mix",
+        "evidence": "Oat & Cocoa Drink Mix",
+        "state": "read"
+      },
+      {
+        "key": "netContents",
+        "value": "Net wt. 180 g",
+        "evidence": "Net wt. 180 g",
+        "state": "read"
+      },
+      {
+        "key": "servingSize",
+        "value": "18 g (2 scoops)",
+        "evidence": "18 g (2 scoops)",
+        "state": "read"
+      },
+      {
+        "key": "servingsPerContainer",
+        "value": "10",
+        "evidence": "10",
+        "state": "read"
+      },
+      {
+        "key": "factsPanel",
+        "value": "Calories 70\nTotal fat 2 g | 3% DV\nSodium 55 mg | 2% DV\nTotal carbohydrate 12 g | 4% DV\nTotal sugars 6 g\nProtein 2 g",
+        "evidence": "Calories 70\nTotal fat 2 g | 3% DV\nSodium 55 mg | 2% DV\nTotal carbohydrate 12 g | 4% DV\nTotal sugars 6 g\nProtein 2 g",
+        "state": "read"
+      },
+      {
+        "key": "ingredients",
+        "value": "Oat flour, cocoa, milk powder, cane sugar.",
+        "evidence": "Oat flour, cocoa, milk powder, cane sugar.",
+        "state": "read"
+      },
+      {
+        "key": "allergens",
+        "value": "Contains: milk.",
+        "evidence": "Contains: milk.",
+        "state": "read"
+      },
+      {
+        "key": "claims",
+        "value": "Just add water.",
+        "evidence": "Just add water.",
+        "state": "read"
+      },
+      {
+        "key": "directions",
+        "value": "Mix 18 g with 150 mL water. Stir well.",
+        "evidence": "Mix 18 g with 150 mL water. Stir well.",
+        "state": "read"
+      },
+      {
+        "key": "warnings",
+        "value": "",
+        "evidence": "",
+        "state": "absent"
+      },
+      {
+        "key": "storage",
+        "value": "Keep sealed in a cool, dry place.",
+        "evidence": "Keep sealed in a cool, dry place.",
+        "state": "read"
+      },
+      {
+        "key": "manufacturer",
+        "value": "Example Foods\nDemonstration only. Not for sale.",
+        "evidence": "Example Foods\nDemonstration only. Not for sale.",
+        "state": "read"
+      },
+      {
+        "key": "visualMarks",
+        "value": "Blue square badge reading Small batch. Vertical barcode illustration.",
+        "evidence": "Blue square badge reading Small batch. Vertical barcode illustration.",
+        "state": "read"
+      },
+      {
+        "key": "otherText",
+        "value": "Revision A",
+        "evidence": "Revision A",
+        "state": "read"
+      }
+    ]
+  },
+  {
+    "fields": [
+      {
+        "key": "productName",
+        "value": "Oat & Cocoa Drink Mix",
+        "evidence": "Oat & Cocoa Drink Mix",
+        "state": "read"
+      },
+      {
+        "key": "netContents",
+        "value": "Net wt. 216 g",
+        "evidence": "Net wt. 216 g",
+        "state": "read"
+      },
+      {
+        "key": "servingSize",
+        "value": "18 g (2 scoops)",
+        "evidence": "18 g (2 scoops)",
+        "state": "read"
+      },
+      {
+        "key": "servingsPerContainer",
+        "value": "12",
+        "evidence": "12",
+        "state": "read"
+      },
+      {
+        "key": "factsPanel",
+        "value": "Calories 70\nTotal fat 2 g | 3% DV\nSodium 85 mg | 4% DV\nTotal carbohydrate 12 g | 4% DV\nTotal sugars 4 g\nProtein 2 g",
+        "evidence": "Calories 70\nTotal fat 2 g | 3% DV\nSodium 85 mg | 4% DV\nTotal carbohydrate 12 g | 4% DV\nTotal sugars 4 g\nProtein 2 g",
+        "state": "read"
+      },
+      {
+        "key": "ingredients",
+        "value": "Oat flour, cocoa, milk powder, soy flour, cane sugar.",
+        "evidence": "Oat flour, cocoa, milk powder, soy flour, cane sugar.",
+        "state": "read"
+      },
+      {
+        "key": "allergens",
+        "value": "Contains: milk, [unclear]",
+        "evidence": "Second allergen is blurred; inspect the original.",
+        "state": "unclear"
+      },
+      {
+        "key": "claims",
+        "value": "Mix hot or cold.",
+        "evidence": "Mix hot or cold.",
+        "state": "read"
+      },
+      {
+        "key": "directions",
+        "value": "Mix 18 g with 150 mL water. Stir well.",
+        "evidence": "Mix 18 g with 150 mL water. Stir well.",
+        "state": "read"
+      },
+      {
+        "key": "warnings",
+        "value": "Do not use if seal is broken.",
+        "evidence": "Do not use if seal is broken.",
+        "state": "read"
+      },
+      {
+        "key": "storage",
+        "value": "Keep sealed in a cool, dry place.",
+        "evidence": "Keep sealed in a cool, dry place.",
+        "state": "read"
+      },
+      {
+        "key": "manufacturer",
+        "value": "Example Foods\nDemonstration only. Not for sale.",
+        "evidence": "Example Foods\nDemonstration only. Not for sale.",
+        "state": "read"
+      },
+      {
+        "key": "visualMarks",
+        "value": "Orange circle badge reading Batch checked. Vertical barcode illustration.",
+        "evidence": "Orange circle badge reading Batch checked. Vertical barcode illustration.",
+        "state": "read"
+      },
+      {
+        "key": "otherText",
+        "value": "Revision B",
+        "evidence": "Revision B",
+        "state": "read"
+      }
+    ]
+  }
+]

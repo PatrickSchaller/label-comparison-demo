@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An independent demonstration of AI-assisted product label comparison and human review.">
+  <title>Label Review | Comparison workspace</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#findings">Skip to findings</a>
+  <header><div class="brand"><span class="brand-icon" aria-hidden="true">≠</span><strong>Label Review</strong></div><span>Independent portfolio demo</span></header>
+  <main>
+    <section class="intro">
+      <div><h1>What changed on this label?</h1><p>Compare the evidence. Check the originals. Keep the review in your hands.</p></div>
+      <a href="https://github.com/PatrickSchaller/label-comparison-demo">View the source</a>
+    </section>
+    <ol class="process" aria-label="Comparison process">
+      <li><span>1</span>Choose labels</li><li><span>2</span>Extract evidence</li><li><span>3</span>Compare fields</li><li><span>4</span>Human review</li>
+    </ol>
+    <section class="controls" aria-labelledby="start-title">
+      <div class="sample-control"><h2 id="start-title">Start with the example</h2><p>Two invented oat drink labels, with prepared extraction data. No API key or AI call.</p><button id="sample" type="button">Run sample comparison</button></div>
+      <form id="upload">
+        <h2>Or compare your own labels</h2>
+        <p id="live-status">Checking live AI configuration…</p>
+        <div class="uploads"><label>Previous label<input id="before" type="file" accept=".png,.jpg,.jpeg,.pdf" required></label><label>New label<input id="after" type="file" accept=".png,.jpg,.jpeg,.pdf" required></label></div>
+        <p class="hint">PNG, JPEG or PDF. Up to 6 MiB each. Use a single label per document.</p>
+        <label class="check"><input id="consent" type="checkbox" required><span>I can share these labels with OpenAI and understand that API usage is billed to the configured account.</span></label>
+        <button id="compare" type="submit" disabled>Extract & compare with AI</button>
+      </form>
+    </section>
+    <p id="message" role="status" aria-live="polite">Run the sample to explore the full review flow.</p>
+    <div id="result" hidden>
+      <section class="source-section" aria-labelledby="sources-title">
+        <div class="section-heading"><h2 id="sources-title">Source labels</h2><span id="mode"></span></div>
+        <p id="disclosure" class="disclosure"></p>
+        <div class="previews"><figure><figcaption>Previous label <a id="before-link" download>Download original</a></figcaption><div id="before-preview" class="preview"></div></figure><figure><figcaption>New label <a id="after-link" download>Download original</a></figcaption><div id="after-preview" class="preview"></div></figure></div>
+      </section>
+      <section id="findings" tabindex="-1" aria-labelledby="findings-title">
+        <div class="section-heading"><div><h2 id="findings-title">Review findings</h2><p id="summary"></p></div><label class="check"><input id="show-unchanged" type="checkbox"><span>Show unchanged fields</span></label></div>
+        <p class="hint">Changes preserve numbers, units, punctuation and ingredient order. “Unclear” always requires review, even when the values look the same. Visual descriptions can vary between extractions.</p>
+        <div id="rows"></div>
+        <div class="review-footer"><div><label class="check"><input id="source-checked" type="checkbox"><span>I checked both original labels, including areas with no reported change.</span></label><p id="review-progress"></p></div><button id="export" type="button">Export review JSON</button></div>
+        <p class="hint">Review choices stay in this page until reset or reload. Export to keep a copy. Acknowledging a finding does not approve the label.</p>
+      </section>
+      <details><summary>Inspect the structured extraction & provenance</summary><p>Source hashes identify the compared files. Provider response IDs appear only for live runs. The sample uses prepared fixtures.</p><pre id="raw"></pre></details>
+    </div>
+    <footer><p>This demo helps find changes. Extraction can miss content. It does not determine compliance, safety or permission to print.</p><p>Built by Patrick Schaller. Synthetic examples only.</p></footer>
+  </main>
+</body>
+</html>

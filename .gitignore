@@ -1,0 +1,12 @@
+bin/
+obj/
+node_modules/
+test-results/
+playwright-report/
+.env*
+appsettings*.json
+*.user
+*.db
+uploads/
+reports/
+artifacts/
